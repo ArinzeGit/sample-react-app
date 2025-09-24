@@ -1,8 +1,4 @@
-interface props {
-  title: string;
-}
-
-function Button({ title }: props) {
+function Button({ title }: { title: string }) {
   return <button>{title}</button>;
 }
 
